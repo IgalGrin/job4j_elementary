@@ -7,7 +7,7 @@ public class MathFunc {
     }
 
     public static int func2(int x) {
-        int y = 1 * x; // откорректировано в соответствии с начальным кодом.
+        int y = x * 10; // откорректировано в соответствии с начальным кодом.
         return y;
     }
 
