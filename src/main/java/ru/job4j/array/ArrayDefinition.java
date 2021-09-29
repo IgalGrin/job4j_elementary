@@ -9,4 +9,5 @@ public class ArrayDefinition {
         System.out.println("Размер массива равен: " + surnames.length);
         System.out.println("Размер массива равен: " + prices.length);
     }
+
 }
