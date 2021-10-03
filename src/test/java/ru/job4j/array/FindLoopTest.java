@@ -64,12 +64,12 @@ public class FindLoopTest {
 
     @Test
     public void whenFind8() {
-        int[] data = new int[] {5, 2, 10, 8, 4};
+        int[] data = new int[] {5, 2, 10, 4, 7, 8};
         int el = 8;
         int start = 3;
         int finish = 5;
         int result = FindLoop.indexOf(data, el, start, finish);
-        int expected = 3;
+        int expected = 5;
         Assert.assertEquals(expected, result);
     }
 
