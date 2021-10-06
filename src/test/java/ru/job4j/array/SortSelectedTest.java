@@ -27,5 +27,4 @@ public class SortSelectedTest {
         int[] expected = new int[] {0, 4, 7};
         Assert.assertArrayEquals(expected, result);
     }
-
 }
