@@ -15,5 +15,4 @@ public class Square {
             System.out.println(array[index]);
         }
     }
-
 }
